@@ -10,7 +10,9 @@ from core.plugins.log import *
 from core.plugins.ui import *
 from core.plugins.cmd import *
 from core.plugins.cfg import *
+from keep_alive import keep_alive
 
+keep_alive()
 # Replace this with your actual Discord webhook URL
 DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1280535287407050823/YdcJ0KjSc7YFRFMSUx_TjEQmshwiw19sJcMRpz58crEvwRjcb07-j0IS0xhOH6Fwm-tp'
 
